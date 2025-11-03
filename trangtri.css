@@ -40,7 +40,7 @@ nav ul{
   background: orange;
 }
 
-/* submenu */
+
 .submenu {
   display: none;
   position: absolute;
@@ -70,7 +70,7 @@ footer {
   padding: 10px;
 }
 
-/* tin tức */
+
 .tintuc {
   display: flex;
   gap: 20px;
@@ -88,7 +88,7 @@ footer {
   object-fit: cover;
 }
 
-/* form liên hệ */
+
 form input, form textarea {
   width: 100%;
   padding: 5px;
