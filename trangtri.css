@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: lightgray;
+  text-align: center;
+  padding: 15px;
+}
+
+nav {
+  background: #333;
+}
+nav ul{
+    align-items: center;
+
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.menu a:hover {
+  background: orange;
+}
+
+/* submenu */
+.submenu {
+  display: none;
+  position: absolute;
+  background: #444;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.submenu li a {
+  padding: 8px 12px;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+main {
+  padding: 20px;
+  min-height: 300px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* tin tức */
+.tintuc {
+  display: flex;
+  gap: 20px;
+}
+
+.baiviet {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 45%;
+}
+
+.baiviet img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* form liên hệ */
+form input, form textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #999;
+}
+
+form input[type="submit"] {
+  width: 100px;
+  background: gray;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+form input[type="submit"]:hover {
+  background: orange;
+}
